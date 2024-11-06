@@ -1,0 +1,60 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+
+.hero {
+    height: 400px; /* or adjust based on preference */
+    width: 100%;
+    background-image: url('patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg');
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Keeps the image centered */
+    background-repeat: no-repeat; /* Prevents repeating the image */
+}
+
+@media (max-width: 768px) {
+    .hero {
+        height: 400px; /* Reduce height for mobile */
+    }
+}
+
+@media (max-width: 480px) {
+    .hero {
+        height: 300px; /* Further reduce height for small screens */
+    }
+}
+
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+
+.categories .card, .products .card {
+    transition: transform 0.3s ease;
+}
+
+.categories .card:hover, .products .card:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero .lead {
+        font-size: 1rem;
+    }
+
+    .card-img-top {
+        height: 200px;
+    }
+}
