@@ -30,7 +30,6 @@ This project is the front-end of an **e-commerce website** designed for a booksh
 - **`contact.html`**: Contains a form for users to submit inquiries.
 - **`about.html`**: Provides background information about the bookshop.
 - **`css/`**: Contains custom CSS files for styling.
-- **`js/`**: Contains JavaScript files for functionalities such as search, cart, and authentication.
 - **`images/`**: Stores images used throughout the website, such as book covers and banners.
 
 
